@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
+  <title>Document</title>
+</head>
+<body>
+
+  <script>
+    const halloween = moment('31-10-19', 'DD-MM-YY');
+    const m2 = moment('12/31/2019');
+    console.log(m2.diff(halloween, 'days'));
+    console.log(halloween.format('dddd MM-DD-YYYY'));
+
+  </script>
+</body>
+</html>
